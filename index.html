@@ -1,0 +1,47 @@
+<!-- create a digital seconds clock using setinterval and date object in javscript .the date object can be used to get the date ,
+  time,hours,and seconds which can the be updated using setinterval . Try to keep the UI good looking.... -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock using js </title>
+</head>
+<style>
+   body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.clock-container {
+    background-color: #3fbee2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#clock {
+    font-size: 48px;
+    color: #282c34;
+    text-align: center;
+}
+
+</style>
+
+<body>
+    
+    <div class="clock-container">
+        <div id="clock">00:00:00</div>
+
+    </div>
+</body>
+<script src="clock.js"></script>
+</html>
